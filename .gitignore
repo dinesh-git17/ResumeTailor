@@ -1,0 +1,157 @@
+##################################
+# 🔒 General (OS, IDEs, Env, Logs)
+##################################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# VSCode
+.vscode/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Logs
+*.log
+*.tmp
+*.log.*
+
+##################################
+# 🐍 Python (FastAPI Backend)
+##################################
+
+# Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+*.manifest
+
+# Testing / Lint
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+.ipython/
+
+# PyInstaller
+*.spec
+
+# PDM, Poetry, Pipenv
+Pipfile.lock
+poetry.lock
+
+# SQLite DB
+*.sqlite3
+
+##################################
+# ⚛️ Node.js / Next.js (Frontend)
+##################################
+
+# Node modules
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Build output
+build/
+.cache/
+.cache-loader/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package managers
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Testing / Coverage
+coverage/
+.nyc_output/
+
+# VS Code & WebStorm
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+##################################
+# 📄 LaTeX (Resume Templates)
+##################################
+
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.pdf
+
+##################################
+# 🐳 Docker (Optional)
+##################################
+
+.docker/
+.dockerignore
+
+##################################
+# ⚙️ CI/CD & Misc
+##################################
+
+*.pid
+*.bak
+*.orig
+*.swp
+*.tmp
+*.lock
+.cache/
+
+# pyenv / nodenv
+.python-version
+.node-version
